@@ -1,0 +1,48 @@
+{
+    "name": "rocketphp/logger",
+    "description": "Log to file - PSR Log interface",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Eric Mugerwa",
+            "email":  "eric@rocketphp.io",
+            "homepage":  "http://www.rocketphp.io",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "keywords": [
+        "rocketphp",
+        "logger"
+    ],
+    "homepage": "https://github.com/rocketphp/logger",
+    "autoload": {
+        "psr-4": {
+            "RocketPHP\\Logger\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RocketPHPTest\\Logger\\": "test/"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "psr/log": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "~4.0",
+        "phpdocumentor/phpdocumentor": "2.*"
+    },
+    "suggest": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev",
+            "dev-develop": "1.1-dev"
+        }
+    }
+}
