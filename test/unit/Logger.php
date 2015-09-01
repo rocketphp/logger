@@ -25,7 +25,7 @@ extends LoggerTestCase
      * @expectedException        InvalidArgumentException
      * @expectedExceptionMessage Expected string for directory
      */
-    public function testConstructorInvalidDir($badValue)
+    public function testConstructorThrowsExceptionIfInvalidDir($badValue)
     {  
         $logger = new Logger($badValue);
     }
