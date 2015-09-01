@@ -16,9 +16,6 @@
         <testsuite name="logger Unit Test Suite">
             <directory suffix=".php">./test/unit/</directory> 
         </testsuite>
-        <testsuite name="logger Functional Test Suite">
-            <directory suffix=".php">./test/functional/</directory> 
-        </testsuite>
     </testsuites>
 
     <groups>
